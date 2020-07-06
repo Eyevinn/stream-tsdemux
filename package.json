@@ -1,0 +1,20 @@
+{
+  "name": "@eyevinn/tsdemux",
+  "version": "0.1.0",
+  "description": "A writable Stream that demux MPEG-TS bitstream into seperate Readable streams",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)/jasmine"
+  },
+  "author": "Eyevinn Technology AB <work@eyevinn.se>",
+  "contributors": [
+    "Jonas Rydholm Birmé <jonas.birme@eyevinn.se> (Eyevinn Technology AB)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "debug": "^4.1.1"
+  },
+  "devDependencies": {
+    "jasmine": "^3.5.0"
+  }
+}
