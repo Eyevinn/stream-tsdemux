@@ -4,7 +4,12 @@
   "description": "A writable Stream that demux MPEG-TS bitstream into seperate Readable streams",
   "main": "index.js",
   "scripts": {
-    "test": "$(npm bin)/jasmine"
+    "test": "$(npm bin)/jasmine",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Eyevinn/stream-tsdemux"
   },
   "author": "Eyevinn Technology AB <work@eyevinn.se>",
   "contributors": [
